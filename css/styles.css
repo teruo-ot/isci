@@ -12,13 +12,12 @@
  */
 :root {
 
-  /* Paleta Personalizada Patrícia Martinelli */
-  --bs-psy28: #28bca5;
-  --bs-psy76: #76efa4;
-  --bs-psy9d: #9da5ad;
-  --bs-psyff: #fffdf7;
-  --bs-psy29: #293b7a;
-  --bs-psyc9: #c9a227;
+  /* Paleta Personalizada ISCI OUCHI MT */
+  --bs-misty: #aaa9a3;
+  --bs-charcoal: #3B4754;
+  --bs-mistyBlue: #A5A9B3;
+  --bs-roseRed: #74112F;
+  --bs-black: #000000;
 
   /* Paleta Bootstrap */
   --bs-blue: #2937f0;
@@ -43,7 +42,8 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #2937f0;
+  /* --bs-primary: #2937f0; */
+  --bs-primary: #74112F;
   --bs-secondary: #9f1ae2;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -3043,28 +3043,28 @@ textarea.form-control-lg {
   color: #fff;
   /* background-color: #2937f0; */
   /* border-color: #2937f0; */
-  background-color: var(--bs-green);
-  border-color: var(--bs-green  );
+  background-color: var(--bs-charcoal);
+  border-color: var(--bs-charcoal  );
   
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: var(--bs-psy29);
-  border-color: var(--bs-psy29);
+  background-color: var(--bs-roseRed);
+  border-color: var(--bs-roseRed);
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: var(--bs-psy29);
-  border-color:  var(--bs-psy29);
-  box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
+  color: var(--bs-charcoal);
+  background-color: var(--bs-misty);
+  border-color:  var(--bs-misty]);
+  box-shadow: 0 0 0 0.25rem var(--bs-misty);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #212cc0;
-  border-color: #1f29b4;
+  color: var(--bs-charcoal);
+  background-color: var(--bs-mistyBlue);
+  border-color: var(--bs-mistyBlue);
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
+  box-shadow: 0 0 0 0.25rem var(--bs-misty);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
